@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2030.925" height="742.129" viewBox="0 0 2030.925 742.129">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2030.925" height="861.681" viewBox="0 0 2030.925 861.681">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.517" y2="0.951" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#f24c27"/>
       <stop offset="1" stop-color="#f28e13"/>
     </linearGradient>
-    <filter id="top-third" x="0" y="0" width="2030.925" height="742.129" filterUnits="userSpaceOnUse">
+    <filter id="top-third" x="0" y="0" width="2030.925" height="861.681" filterUnits="userSpaceOnUse">
       <feOffset dy="25" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="18.5" result="blur"/>
       <feFlood flood-opacity="0.11"/>
@@ -13,6 +13,6 @@
     </filter>
   </defs>
   <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#top-third)">
-    <path id="top-third-2" data-name="top-third" d="M1494,286.551l1919.925,3.374V798.11s-144.669,125.233-309.494,119.371-371.99-309.694-477.6-415.308-356.906-229.718-676.174-120.7S1494,807.893,1494,807.893Z" transform="translate(-1438.5 -256.05)" fill="url(#linear-gradient)"/>
+    <path id="top-third-2" data-name="top-third" d="M1494,286.551l1919.925,4.014V895.012s-144.669,148.956-309.494,141.982S2725.579,786.2,2619.964,660.583,2283.383,369.526,1964.115,499.2,1494,906.648,1494,906.648Z" transform="translate(-1438.5 -256.05)" fill="url(#linear-gradient)"/>
   </g>
 </svg>

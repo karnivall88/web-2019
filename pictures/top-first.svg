@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2030.925" height="624.569" viewBox="0 0 2030.925 624.569">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2031" height="624.569" viewBox="0 0 2031 624.569">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.517" y2="0.951" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#f24c27"/>
       <stop offset="1" stop-color="#f28e13"/>
     </linearGradient>
-    <filter id="top-first" x="0" y="0" width="2030.925" height="624.569" filterUnits="userSpaceOnUse">
+    <filter id="top-first" x="0" y="0" width="2031" height="624.569" filterUnits="userSpaceOnUse">
       <feOffset dy="25" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="18.5" result="blur"/>
       <feFlood flood-opacity="0.11"/>
@@ -13,6 +13,6 @@
     </filter>
   </defs>
   <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#top-first)">
-    <path id="top-first-2" data-name="top-first" d="M1494,402H3413.925V798.11S3300.4,921.229,3135.579,915.366s-388.942-209.488-511.193-289.2-320.09-138.874-616.629-97.012S1494,763.52,1494,763.52Z" transform="translate(-1438.5 -371.5)" fill="url(#linear-gradient)"/>
+    <path id="top-first-2" data-name="top-first" d="M1494,402H3414V798.11s-113.525,123.118-278.357,117.256-388.957-209.488-511.213-289.2-320.1-138.874-616.653-97.012S1494,763.52,1494,763.52Z" transform="translate(-1438.5 -371.5)" fill="url(#linear-gradient)"/>
   </g>
 </svg>

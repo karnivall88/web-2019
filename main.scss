@@ -1,12 +1,24 @@
-.top
-{
-    margin-bottom: 20px;
-    padding-top: 5px;
-    height: 800px;
+html {
+    scroll-behavior: smooth;
+  }
+
+.hero{
+    padding-top: 120px;
 }
-.layer
-{
-    position: absolute;
-    width: 100%;
+.about{
+    padding-top: 80px;
 }
+.pricing
+{
+    margin-top: 110px;
+}
+$theme-colors:(
+
+"juice": #F24C27,
+"wooden":#BF694A
+
+);
+
+
+
 @import "./node_modules/bootstrap/scss/bootstrap";
