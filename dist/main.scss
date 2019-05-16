@@ -17,14 +17,15 @@ html {
     margin-top: 110px;
     height: 600px;
 }
-$theme-colors:(
 
+$theme-colors:(
+"primary":#F24C27,
 "juice": #F24C27,
 "wooden":#BF694A
 
 
 );
 
-
+$brand-primary: #F24C27;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
