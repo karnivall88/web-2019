@@ -25,8 +25,13 @@
             laudantium earum quae?</p>
           <div class="row">
             <div class="col-sm-12">
+<<<<<<< HEAD
               <button class="btn btn-secondary m-1 float-right">Подробнее</button>
               <button class="btn btn-primary m-1 float-right">Заказать</button>
+=======
+              <button class="btn btn-outline-secondary m-1 float-right">Подробнее</button>
+              <a href="#order" role="button" class="btn btn-outline-juice m-1 float-right">Заказать</a>
+>>>>>>> 075d192130fc74a9426f3a509208c11cb245bc70
             </div>
           </div>
         </div>
@@ -135,7 +140,7 @@
     </div>
 
   </section>
-  <section class="order">
+  <section id="order" class="order">
     <div class="container">
       <div class="row ">
         
@@ -169,6 +174,7 @@
                 Введите ваш адрес
               </div>
             </div>
+<<<<<<< HEAD
             <div class="input-group col-sm-12 mb-3">
               <label for="slider" class="text-juice lead">Количество литров (1-100)</label>
               <input type="range" class="custom-range" min="1" max="100" id="slider">
@@ -185,9 +191,36 @@
                 </div>
                 <button class="btn btn-juice" type="submit"> <i class="fas fa-shopping-cart mr-1"></i>Заказать</button>
               </div>
-            </div>
+=======
+          </div>
         </div>
+        <div class="row">
+          <div class="input-group col-md-4 col-sm-12 mb-3">
+            <label for="slider" class="text-juice lead">Количество литров (1-100)</label>
+            <input type="range" class="custom-range" min="1" max="100" id="slider" value="1">
+            <h1 id="value" class="display-4 text-juice"></h1>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-group col-md-4  col-sm-12 mb-3">
+            <div class="custom-control custom-checkbox mb-3">
+              <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+              <label class="custom-control-label" for="customControlValidation1">Согласен с условиями
+                пользования</label>
+              <div class="invalid-feedback">Вы должны согласится с <a href="#">условиями</a> пользования</div>
+
+>>>>>>> 075d192130fc74a9426f3a509208c11cb245bc70
+            </div>
+          </div>
+        </div>
+<<<<<<< HEAD
        
+=======
+
+        <button class="btn btn-juice float-right" type="submit"> <i
+            class="fas fa-shopping-cart mr-1"></i>Заказать</button>
+>>>>>>> 075d192130fc74a9426f3a509208c11cb245bc70
       </form>
       <div class="col-sm-12 col-md-6 d-flex justify-content-around">
           <div class="card" style="width: 20rem;">
@@ -237,6 +270,7 @@
       })();
       let slider = document.getElementById("slider");
       let val = document.getElementById("value");
+<<<<<<< HEAD
       let price = document.getElementById("order-price");
       let discount = document.getElementById("order-discount-eur");
       let bottle = document.getElementById("order-bottle");
@@ -268,6 +302,11 @@
           delivery.innerText = "бесплатно";
         }
 
+=======
+      val.innerHTML = slider.value + "<span class=\"lead text-muted\">Л.</span>";
+      slider.oninput = function () {
+        val.innerHTML = this.value + "<span class=\"lead text-muted\">Л.</span>"
+>>>>>>> 075d192130fc74a9426f3a509208c11cb245bc70
       };
     </script>
 </body>
