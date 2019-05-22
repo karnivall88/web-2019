@@ -12,6 +12,11 @@
 </head>
 
 <body>
+  <div class="apple1">
+    <svg viewBox="0 0 1820 1920">
+        <path id="Path_198" data-name="Path 198" class="cls-1" d="M1494,402H3414V798.11s-113.525,123.118-278.357,117.256-388.957-209.488-511.213-289.2-320.1-138.874-616.653-97.012S1494,763.52,1494,763.52Z" transform="translate(-1550 -450)"/>
+      </svg>
+    </div>
   <section class="hero">
     <div class="container rellax" data-rellax-speed="7">
       <div class="row mt-5">
@@ -38,8 +43,8 @@
   <section class="about">
     <div class="container">
       <div class="row rellax" data-rellax-speed="4">
-        <div class="col-sm12 col-md-4 rellax mx-auto" data-rellax-speed="-4"><img class="img-fluid"
-            src="https://via.placeholder.com/96" alt=""></div>
+        <div class="col-sm12 col-md-4 rellax mx-auto " data-rellax-speed="-4">
+        </div>
         <div class="col-sm-12 col-md-4">
           <h1 class="display-4 text-juice">Яблоки</h1>
           <p class="text-left lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sed excepturi,
@@ -220,6 +225,7 @@
     </div>
     </secttion>
     <script src="rellax.min.js"></script>
+    <script src="anime.min.js"></script>
     <script>
       var rellax = new Rellax('.rellax');
       (function () {
@@ -271,6 +277,19 @@
         }
 
       };
+      var animation = anime({
+          targets: '#Path_198',
+          d:[
+            { value: 'M1494,402H3414V798.11s-112.06,204.106-276.891,198.243-390.423-290.475-512.679-370.186-320.1-138.874-616.653-97.012S1494,763.52,1494,763.52Z'},
+            { value: 'M1494,402H3414V798.11s-113.525,123.118-278.357,117.256-388.957-209.488-511.213-289.2-320.1-138.874-616.653-97.012S1494,763.52,1494,763.52Z'}
+      ],
+            autoplay: false  
+      });
+      
+      window.onscroll = function () {
+      let y = window.scrollY;
+      animation.seek((y/2000)* animation.duration)}
+        
     </script>
 </body>
 
