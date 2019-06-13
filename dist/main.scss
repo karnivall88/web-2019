@@ -13,16 +13,58 @@ html {
 {
     margin-top: 110px;
 }
+
 .order{
     margin-top: 110px;
     height: 600px;
 }
-.apple1
+.head
 {
-    fill: #F24C27;
     position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+.mask{
+    fill: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.abs{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+.top
+{
+    position: absolute;
+    width: 100%;
+}
+.abs-pl{
+    position: absolute;
+    height: 48%;
+
+}
+.wrapper{
+    overflow: hidden;
 }
 
+
+@media (max-width:640px)
+{
+    .cards
+{
+    visibility: hidden;
+}
+.hd{
+    visibility: hidden;
+}
+.leaf{
+    visibility: hidden;
+}
+}
 $theme-colors:(
 "primary":#F24C27,
 "juice": #F24C27,
