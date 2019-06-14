@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    // font-family: 'Montserrat', sans-serif;
   }
 
 .hero{
@@ -13,19 +14,67 @@ html {
 {
     margin-top: 110px;
 }
+
 .order{
     margin-top: 110px;
     height: 600px;
 }
+.head
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
 
+}
+.mask{
+    fill: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.abs{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+.top
+{
+    position: absolute;
+    width: 100%;
+}
+.abs-pl{
+    position: absolute;
+    height: 48%;
+
+}
+.wrapper{
+    overflow: hidden;
+}
+
+
+@media (max-width:640px)
+{
+    .cards
+{
+    visibility: hidden;
+}
+.hd{
+    visibility: hidden;
+}
+
+.leaf{
+    visibility: hidden;
+}
+}
 $theme-colors:(
-
-"juice": #F24C27,
-"wooden":#BF694A
+"primary":#F24C27,
+"juice": #8C0821,
+"wooden":#8C0821
 
 
 );
 
-
+$brand-primary: #8C0821;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
