@@ -36,7 +36,11 @@ html {
     position: absolute;
     height: 100%;
     width: 100%;
-    
+    display: block;   
+}
+.chld
+{
+    display: inline;
 }
 .top
 {
@@ -55,7 +59,7 @@ html {
 
 @media (max-width:640px)
 {
-    .cards
+.cards
 {
     visibility: hidden;
 }
